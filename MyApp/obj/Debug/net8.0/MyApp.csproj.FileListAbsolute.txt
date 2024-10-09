@@ -76,3 +76,4 @@ c:\Users\ASUS\Documents\FullStack\19\DVLD\MyApp\obj\Debug\net8.0\refint\MyApp.dl
 c:\Users\ASUS\Documents\FullStack\19\DVLD\MyApp\obj\Debug\net8.0\MyApp.pdb
 c:\Users\ASUS\Documents\FullStack\19\DVLD\MyApp\obj\Debug\net8.0\MyApp.genruntimeconfig.cache
 c:\Users\ASUS\Documents\FullStack\19\DVLD\MyApp\obj\Debug\net8.0\ref\MyApp.dll
+C:\Users\ASUS\Documents\FullStack\19\DVLD\MyApp\obj\Debug\net8.0\MyApp.sourcelink.json

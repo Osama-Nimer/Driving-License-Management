@@ -43,3 +43,4 @@ c:\Users\ASUS\Documents\FullStack\19\DVLD\BuisnessLayer\obj\Debug\net8.0\Buisnes
 c:\Users\ASUS\Documents\FullStack\19\DVLD\BuisnessLayer\obj\Debug\net8.0\refint\BuisnessLayer.dll
 c:\Users\ASUS\Documents\FullStack\19\DVLD\BuisnessLayer\obj\Debug\net8.0\BuisnessLayer.pdb
 c:\Users\ASUS\Documents\FullStack\19\DVLD\BuisnessLayer\obj\Debug\net8.0\ref\BuisnessLayer.dll
+C:\Users\ASUS\Documents\FullStack\19\DVLD\BuisnessLayer\obj\Debug\net8.0\BuisnessLayer.sourcelink.json

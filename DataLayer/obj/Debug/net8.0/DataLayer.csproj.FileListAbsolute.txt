@@ -34,3 +34,4 @@ c:\Users\ASUS\Documents\FullStack\19\DVLD\DataLayer\obj\Debug\net8.0\DataLayer.d
 c:\Users\ASUS\Documents\FullStack\19\DVLD\DataLayer\obj\Debug\net8.0\refint\DataLayer.dll
 c:\Users\ASUS\Documents\FullStack\19\DVLD\DataLayer\obj\Debug\net8.0\DataLayer.pdb
 c:\Users\ASUS\Documents\FullStack\19\DVLD\DataLayer\obj\Debug\net8.0\ref\DataLayer.dll
+C:\Users\ASUS\Documents\FullStack\19\DVLD\DataLayer\obj\Debug\net8.0\DataLayer.sourcelink.json
