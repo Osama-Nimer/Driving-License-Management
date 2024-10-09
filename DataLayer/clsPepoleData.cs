@@ -184,61 +184,79 @@ public class clsPepoleData
 
     } 
 
-    public static bool UpdatePersonById(int PersonID, string FirstName,  string SecondName,
-     string ThirdName,  string LastName,  string NationalNo,  DateTime DateOfBirth,
-     short Gendor, string Address,string Phone,  string Email,
-     int NationalityCountryID,  string ImagePath)
+    public static bool UpdatePerson(int PersonID,  string FirstName, string SecondName,
+   string ThirdName, string LastName, string NationalNo, DateTime DateOfBirth,
+   short Gendor, string Address, string Phone, string Email,
+    int NationalityCountryID, string ImagePath)
+{
+
+    int rowsAffected = 0;
+    SqlConnection connection = new SqlConnection(ConnString.ConnectionString);
+
+    string query = @"Update  People  
+                    set FirstName = @FirstName,
+                        SecondName = @SecondName,
+                        ThirdName = @ThirdName,
+                        LastName = @LastName, 
+                        NationalNo = @NationalNo,
+                        DateOfBirth = @DateOfBirth,
+                        Gendor=@Gendor,
+                        Address = @Address,  
+                        Phone = @Phone,
+                        Email = @Email, 
+                        NationalityCountryID = @NationalityCountryID,
+                        ImagePath =@ImagePath
+                        where PersonID = @PersonID";
+
+    SqlCommand command = new SqlCommand(query, connection);
+
+    command.Parameters.AddWithValue("@PersonID", PersonID);
+    command.Parameters.AddWithValue("@FirstName", FirstName);
+    command.Parameters.AddWithValue("@SecondName", SecondName);
+
+    if (ThirdName != "" && ThirdName != null)
+        command.Parameters.AddWithValue("@ThirdName", ThirdName);
+    else
+        command.Parameters.AddWithValue("@ThirdName", System.DBNull.Value);
+
+  
+    command.Parameters.AddWithValue("@LastName", LastName);
+    command.Parameters.AddWithValue("@NationalNo", NationalNo);
+    command.Parameters.AddWithValue("@DateOfBirth", DateOfBirth);
+    command.Parameters.AddWithValue("@Gendor", Gendor);
+    command.Parameters.AddWithValue("@Address", Address);
+    command.Parameters.AddWithValue("@Phone", Phone);
+
+    if (Email != "" && Email != null)
+        command.Parameters.AddWithValue("@Email", Email);
+    else
+        command.Parameters.AddWithValue("@Email", System.DBNull.Value);
+
+    command.Parameters.AddWithValue("@NationalityCountryID", NationalityCountryID);
+
+    if (ImagePath != "" && ImagePath != null)
+        command.Parameters.AddWithValue("@ImagePath", ImagePath);
+    else
+        command.Parameters.AddWithValue("@ImagePath", System.DBNull.Value);
+
+
+    try
     {
-        int rows = 0;
-        SqlConnection conn =new SqlConnection(ConnString.ConnectionString);
-        string Query =@"UPDATE People
-                        SET NationalNo = @NationalNo
-                            ,FirstName = @FirstName
-                            ,SecondName= @SecondName
-                            ,ThirdName= @ThirdName
-                            ,LastName= @LastName
-                            ,DateOfBirth = @DateOfBirth
-                            ,Gendor= @Gendor
-                            ,Address = @Address
-                            ,Phone = @Phone
-                            ,Email = @Email
-                            ,NationalityCountryID= @NationalityCountryID
-                            ,ImagePath=@ImagePath
-                        WHERE PersonID = @PersonID";
+        connection.Open();
+        rowsAffected = command.ExecuteNonQuery();
 
-
-        SqlCommand command = new SqlCommand(Query,conn);
-        command.Parameters.AddWithValue("@FirstName",FirstName);                     
-        command.Parameters.AddWithValue("@SecondName",SecondName);   
-         if (ThirdName != "" && ThirdName != null)
-            command.Parameters.AddWithValue("@ThirdName", ThirdName);
-        else
-            command.Parameters.AddWithValue("@ThirdName", System.DBNull.Value);                  
-        command.Parameters.AddWithValue("@LastName",LastName);                    
-        command.Parameters.AddWithValue("@NationalNo",NationalNo);                    
-        command.Parameters.AddWithValue("@DateOfBirth",DateOfBirth);                    
-        command.Parameters.AddWithValue("@Gendor",Gendor);                    
-        command.Parameters.AddWithValue("@Address",Address);                    
-        command.Parameters.AddWithValue("@Phone",Phone);  
-        if (Email != "" && Email != null)
-            command.Parameters.AddWithValue("@Email", Email);
-        else
-            command.Parameters.AddWithValue("@Email", System.DBNull.Value);                  
-        command.Parameters.AddWithValue("@NationalityCountryID",NationalityCountryID);                    
-        if (ImagePath != "" && ImagePath != null)
-            command.Parameters.AddWithValue("@ImagePath", ImagePath);
-        else
-            command.Parameters.AddWithValue("@ImagePath", System.DBNull.Value);                  
-        try
-        {
-            conn.Open();
-            rows = command.ExecuteNonQuery();
-        }
-        catch (Exception e)
-        {
-            System.Console.WriteLine(e.Message);
-        }
-        finally{conn.Close();}
-        return (rows > 0);
     }
+    catch (Exception ex)
+    {
+        //Console.WriteLine("Error: " + ex.Message);
+        return false;
+    }
+
+    finally
+    {
+        connection.Close();
+    }
+
+    return (rowsAffected > 0);
+}
 }

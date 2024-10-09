@@ -35,45 +35,43 @@ public class clsPepoleBuisness
 
 
     public clsPepoleBuisness()
+    {
+        this.PersonID = -1;
+        this.FirstName = "";
+        this.SecondName = "";
+        this.ThirdName = "";
+        this.LastName = "";
+        this.DateOfBirth = DateTime.Now;
+        this.Address = "";
+        this.Phone = "";
+        this.Email = "";
+        this.NationalityCountryID = -1;
+        this.ImagePath = "";
 
-{
-    this.PersonID = -1;
-    this.FirstName = "";
-    this.SecondName = "";
-    this.ThirdName = "";
-    this.LastName = "";
-    this.DateOfBirth = DateTime.Now;
-    this.Address = "";
-    this.Phone = "";
-    this.Email = "";
-    this.NationalityCountryID = -1;
-    this.ImagePath = "";
+        Mode = enMode.AddNew;
+    }
 
-    Mode = enMode.AddNew;
-}
-
-private clsPepoleBuisness(int PersonID, string FirstName,string SecondName, string ThirdName,
-    string LastName,string NationalNo, DateTime DateOfBirth,short Gendor,
-     string Address, string Phone, string Email,
-    int NationalityCountryID, string ImagePath)
-
-{
-    this.PersonID = PersonID;
-    this.FirstName = FirstName;
-    this.SecondName= SecondName;
-    this.ThirdName = ThirdName;
-    this.LastName = LastName;
-    this.NationalNo = NationalNo;   
-    this.DateOfBirth = DateOfBirth;
-    this.Gendor= Gendor;
-    this.Address = Address;
-    this.Phone = Phone;
-    this.Email = Email;
-    this.NationalityCountryID = NationalityCountryID;
-    this.ImagePath = ImagePath;
-    //this.CountryInfo = clsCountry.Find(NationalityCountryID);
-    Mode = enMode.Update;
-}
+    private clsPepoleBuisness(int PersonID, string FirstName,string SecondName, string ThirdName,
+        string LastName,string NationalNo, DateTime DateOfBirth,short Gendor,
+        string Address, string Phone, string Email,
+        int NationalityCountryID, string ImagePath)
+        {
+            this.PersonID = PersonID;
+            this.FirstName = FirstName;
+            this.SecondName= SecondName;
+            this.ThirdName = ThirdName;
+            this.LastName = LastName;
+            this.NationalNo = NationalNo;   
+            this.DateOfBirth = DateOfBirth;
+            this.Gendor= Gendor;
+            this.Address = Address;
+            this.Phone = Phone;
+            this.Email = Email;
+            this.NationalityCountryID = NationalityCountryID;
+            this.ImagePath = ImagePath;
+            //this.CountryInfo = clsCountry.Find(NationalityCountryID);
+            Mode = enMode.Update;
+        }
 
 public static clsPepoleBuisness Find(int PersonID)
 {
@@ -134,22 +132,33 @@ private bool _AddNewPerson(){
     return (PersonID != -1 );
 }
 
+private bool _UpdatePerson(){
+     return clsPepoleData.UpdatePerson(
+     this.PersonID, this.FirstName,this.SecondName,this.ThirdName,
+     this.LastName, this.NationalNo, this.DateOfBirth, this.Gendor,
+     this.Address, this.Phone, this.Email, 
+       this.NationalityCountryID, this.ImagePath);
+}
 
-public bool Save(){
-    switch(Mode){
-        case enMode.AddNew : 
-            if(_AddNewPerson())
-            {
-                Mode = enMode.Update;
-                return true;
-            }
-            else
-            {
+            public bool Save(){
+                switch(Mode){
+                    case enMode.AddNew : 
+                        if(_AddNewPerson())
+                        {
+                            Mode = enMode.Update;
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                        case enMode.Update :
+                            return _UpdatePerson();
+                }
                 return false;
             }
-            // case enMode.Update :
-    }
-    return false;
-}
+
+
+            
 
 }
