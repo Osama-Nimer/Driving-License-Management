@@ -511,11 +511,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\MyApp\\MyApp.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\MyApp\\MyApp.csproj",
       "projectName": "MyApp",
-      "projectPath": "c:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\MyApp\\MyApp.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\MyApp\\MyApp.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\MyApp\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\MyApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -533,8 +533,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\BuisnessLayer\\BuisnessLayer.csproj": {
-              "projectPath": "c:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\BuisnessLayer\\BuisnessLayer.csproj"
+            "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\BuisnessLayer\\BuisnessLayer.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\BuisnessLayer\\BuisnessLayer.csproj"
             }
           }
         }
