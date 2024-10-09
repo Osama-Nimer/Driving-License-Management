@@ -113,9 +113,9 @@ public class clsPepoleData
          return isFound;
     }
 
-    public static int AddNewPerson(int PersonID,  string FirstName,  string SecondName,
+    public static int AddNewPerson(string FirstName,  string SecondName,
      string ThirdName,  string LastName,  string NationalNo,  DateTime DateOfBirth,
-     short Gendor,ref string Address,   string Phone,  string Email,
+     short Gendor, string Address,   string Phone,  string Email,
      int NationalityCountryID,  string ImagePath)
     {
         int id = -1;
@@ -161,7 +161,4 @@ public class clsPepoleData
         finally{conn.Close();}
         return id;
     }
-
-
-
 }

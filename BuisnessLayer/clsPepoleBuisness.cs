@@ -124,4 +124,32 @@ public static clsPepoleBuisness Find(String NationalNo)
         return null;
 }
 
+
+private bool _AddNewPerson(){
+    this.PersonID = clsPepoleData.AddNewPerson(
+    this.FirstName,this.SecondName ,this.ThirdName,
+    this.LastName,this.NationalNo,
+    this.DateOfBirth, this.Gendor, this.Address, this.Phone, this.Email,
+    this.NationalityCountryID, this.ImagePath);
+    return (PersonID != -1 );
+}
+
+
+public bool Save(){
+    switch(Mode){
+        case enMode.AddNew : 
+            if(_AddNewPerson())
+            {
+                Mode = enMode.Update;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            // case enMode.Update :
+    }
+    return false;
+}
+
 }
