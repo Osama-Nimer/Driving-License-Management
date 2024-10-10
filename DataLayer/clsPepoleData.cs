@@ -30,7 +30,7 @@ public class clsPepoleData
                 LastName = (String)reader["LastName"];
                 NationalNo = (String)reader["NationalNo"];
                 DateOfBirth = (DateTime)reader["DateOfBirth"];
-                Gendor = (short)reader["Gendor"];
+                Gendor = (byte)reader["Gendor"];
                 Address = (String)reader["Address"];
                 Phone = (String)reader["Phone"];
                 if (reader["Email"] != DBNull.Value)
