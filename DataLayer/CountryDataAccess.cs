@@ -6,10 +6,10 @@ namespace DataLayer
     public class CountryDataAccess
     {
         public static bool GetCountryById(int CountryID , ref String CountryName){
-            bool IsFound =false ;
+            bool IsFound = false ;
             SqlConnection connection = new SqlConnection(ConnString.ConnectionString);
             String Query = "Select * from Countries whrere CountryID = @CountryID";
-            SqlCommand command =new SqlCommand(Query ,connection);
+            SqlCommand command = new SqlCommand(Query ,connection);
             command.Parameters.AddWithValue("@CountryID",CountryID);
             try
             {
@@ -67,8 +67,7 @@ namespace DataLayer
             }
             return IsFound;
         }
-
-
+        
         public static DataTable GetAllCountries(){
             DataTable dt=new DataTable();
             SqlConnection connection = new SqlConnection(ConnString.ConnectionString);
