@@ -6,6 +6,5 @@ class Program
     {
         if(clsPepoleBuisness._DeletePerson(1032))
             System.Console.WriteLine("Deleted !");
-            
     }
 }
