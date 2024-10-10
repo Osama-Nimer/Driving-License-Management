@@ -1,4 +1,7 @@
 ﻿namespace BuisnessLayer;
+
+using System.Data;
+using System.Data.SqlClient;
 using DataLayer;
 public class clsPepoleBuisness
 {
@@ -132,13 +135,13 @@ private bool _AddNewPerson(){
     return (PersonID != -1 );
 }
 
-private bool _UpdatePerson(){
-     return clsPepoleData.UpdatePerson(
-     this.PersonID, this.FirstName,this.SecondName,this.ThirdName,
-     this.LastName, this.NationalNo, this.DateOfBirth, this.Gendor,
-     this.Address, this.Phone, this.Email, 
-       this.NationalityCountryID, this.ImagePath);
-}
+        private bool _UpdatePerson(){
+            return clsPepoleData.UpdatePerson(
+            this.PersonID, this.FirstName,this.SecondName,this.ThirdName,
+            this.LastName, this.NationalNo, this.DateOfBirth, this.Gendor,
+            this.Address, this.Phone, this.Email, 
+            this.NationalityCountryID, this.ImagePath);
+        }
 
             public bool Save(){
                 switch(Mode){
@@ -158,7 +161,13 @@ private bool _UpdatePerson(){
                 return false;
             }
 
-
+        public static bool _DeletePerson(int PersonID){
             
+           return(clsPepoleData.DeletePersonById(PersonID));
+        }
 
+
+        public static DataTable _GetAllPepole(){
+            return clsPepoleData.GetAllPepole();
+        }
 }
