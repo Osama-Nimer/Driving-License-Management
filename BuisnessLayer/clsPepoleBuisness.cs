@@ -26,7 +26,7 @@ public class clsPepoleBuisness
     public string Email { set; get; }
     public int NationalityCountryID { set; get; }
 
-    //public clsCountry CountryInfo;
+    public Country CountryInfo;
 
     private string _ImagePath;
         
@@ -72,7 +72,7 @@ public class clsPepoleBuisness
             this.Email = Email;
             this.NationalityCountryID = NationalityCountryID;
             this.ImagePath = ImagePath;
-            //this.CountryInfo = clsCountry.Find(NationalityCountryID);
+            this.CountryInfo = Country._Find(NationalityCountryID);
             Mode = enMode.Update;
         }
 
