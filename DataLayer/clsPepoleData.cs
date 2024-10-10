@@ -306,4 +306,52 @@ public class clsPepoleData
         }  
         return dt;                 
     }
+    
+    public static bool IsPresonExist(int PersonID){
+        bool IsExist= false;
+        SqlConnection connection =new SqlConnection(ConnString.ConnectionString);
+        String Query  = @"SELECT Found=1 FROM People WHERE PersonID = @PersonID";
+        SqlCommand command =new SqlCommand(Query,connection);
+        command.Parameters.AddWithValue("@PersonID",PersonID);
+        try
+        {
+            connection.Open();
+            SqlDataReader reader = command.ExecuteReader();
+            IsExist =reader.HasRows;
+            reader.Close();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+            IsExist= false;
+        }
+        finally{
+            connection.Close();
+        }
+        return IsExist;
+    }
+
+    public static bool IsPresonExist(String NationalNo){
+        bool IsExist= false;
+        SqlConnection connection =new SqlConnection(ConnString.ConnectionString);
+        String Query  = @"SELECT Found=1 FROM People WHERE NationalNo = @NationalNo";
+        SqlCommand command =new SqlCommand(Query,connection);
+        command.Parameters.AddWithValue("@NationalNo",NationalNo);
+        try
+        {
+            connection.Open();
+            SqlDataReader reader = command.ExecuteReader();
+            IsExist =reader.HasRows;
+            reader.Close();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+            IsExist= false;
+        }
+        finally{
+            connection.Close();
+        }
+        return IsExist;
+    }
 }

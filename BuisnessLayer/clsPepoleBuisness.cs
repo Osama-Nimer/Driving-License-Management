@@ -170,4 +170,12 @@ private bool _AddNewPerson(){
         public static DataTable _GetAllPepole(){
             return clsPepoleData.GetAllPepole();
         }
+
+        public static bool _IsPresonExist(int PersonID){
+            return clsPepoleData.IsPresonExist(PersonID);
+        }
+
+        public static bool _IsPresonExist(String NationalNo){
+            return clsPepoleData.IsPresonExist(NationalNo);
+        }
 }
