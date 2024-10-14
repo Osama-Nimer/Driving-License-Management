@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using DataLayer;
 
 namespace BuisnessLayer
 {
-    public class Users
+    public class User
     {
         public enum enMode{
             AddNew = 0,
@@ -25,7 +26,7 @@ namespace BuisnessLayer
 
         public bool IsActive { get; set; }
 
-        public Users()
+        public User()
         {
             this.UserID = -1;
             this.PersonID = -1;
@@ -35,7 +36,7 @@ namespace BuisnessLayer
             Mode = enMode.AddNew;
         }
 
-        private Users(int UserID , int PersonID ,string UserName ,string Password ,bool IsActive)
+        private User(int UserID , int PersonID ,string UserName ,string Password ,bool IsActive)
         {
             this.UserID = UserID;
             this.PersonID = PersonID;
@@ -71,6 +72,71 @@ namespace BuisnessLayer
             return false;
         } 
 
+        public static User FindUserbyUserID(int UserID){
+            int PersonID = -1;
+            string UserName = "", Password = "";
+            bool IsActive = false;
+
+            bool IsFound = UserDataAccess.GetUserByUserID
+                                ( UserID,ref PersonID, ref UserName,ref Password,ref IsActive);
+
+            if (IsFound)
+                return new User(UserID,PersonID,UserName,Password,IsActive);
+            else
+                return null;
+            
+        } 
+
+        public static User FindUserbyPersonID(int PersonID){
+            int UserID = -1;
+            string UserName = "", Password = "";
+            bool IsActive = false;
+
+            bool IsFound = UserDataAccess.GetUserByPersonID
+                                ( PersonID,ref UserID, ref UserName,ref Password,ref IsActive);
+
+            if (IsFound)
+                return new User(UserID,PersonID,UserName,Password,IsActive);
+            else
+                return null;
+            
+        } 
         
+        public static User FindUserbyUserNameAndPassword(string UserName, string Password ){
+            int PersonID = -1;
+            int UserID = -1;
+            bool IsActive = false;
+
+            bool IsFound = UserDataAccess.GetUserByUserNameAndPassword
+                                (UserName, Password,ref UserID,ref PersonID,ref IsActive);
+
+            if (IsFound)
+                return new User(UserID,PersonID,UserName,Password,IsActive);
+            else
+                return null;
+            
+        } 
+
+
+        public static DataTable _GetAllUser(){
+            return UserDataAccess.GetAllUsers();
+        }
+
+        public static bool _DeleteUesr(int UserID){
+            return UserDataAccess.DeleteUser(UserID);
+        }
+
+        public static bool _IsUserExist(int UserID){
+            return UserDataAccess.IsUserExist(UserID);
+        }
+
+        public static bool _IsUserExist(string UserName){
+            return UserDataAccess.IsUserExist(UserName);
+        }
+
+
+        public static bool _isUserExistForPersonID(int PersonID){
+            return UserDataAccess.IsUserExistForPersonID(PersonID);
+        }
     }
 }
