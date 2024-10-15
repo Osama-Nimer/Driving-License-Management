@@ -1,9 +1,6 @@
 using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace DataLayer
 {
@@ -165,7 +162,11 @@ namespace DataLayer
         public static DataTable GetAllUsers(){
             DataTable dt = new DataTable();
             SqlConnection connection = new SqlConnection (ConnString.ConnectionString);
-            string Query = "Select * From Users";
+            string Query = @"SELECT  Users.UserID, Users.PersonID,
+                            FullName = People.FirstName + ' ' + People.SecondName + ' ' + ISNULL( People.ThirdName,'') +' ' + People.LastName,
+                            Users.UserName, Users.IsActive
+                            FROM  Users INNER JOIN
+                            People ON Users.PersonID = People.PersonID";
             SqlCommand command = new SqlCommand(Query,connection);
             try
             {
