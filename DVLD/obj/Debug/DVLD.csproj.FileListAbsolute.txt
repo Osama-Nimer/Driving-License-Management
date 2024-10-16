@@ -10,3 +10,6 @@ C:\Users\ASUS\Documents\FullStack\19\DVLD\DVLD\obj\Debug\DVLD.pdb
 C:\Users\ASUS\Documents\FullStack\19\DVLD\DVLD\bin\Debug\Guna.UI2.dll
 C:\Users\ASUS\Documents\FullStack\19\DVLD\DVLD\obj\Debug\DVLD.Form1.resources
 C:\Users\ASUS\Documents\FullStack\19\DVLD\DVLD\obj\Debug\DVLD.csproj.Up2Date
+C:\Users\ASUS\Documents\FullStack\19\DVLD\DVLD\obj\Debug\DVLD.People.AddPerson.resources
+C:\Users\ASUS\Documents\FullStack\19\DVLD\DVLD\obj\Debug\DVLD.People.Controls.ctrlPersonCard.resources
+C:\Users\ASUS\Documents\FullStack\19\DVLD\DVLD\obj\Debug\DVLD.People.Controls.ctrlPersonInfoWithFilter.resources

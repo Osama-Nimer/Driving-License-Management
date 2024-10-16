@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18C5076D-2267-47A9-B952-242012CFC22F}|DVLD\\DVLD.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\dvld\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{18C5076D-2267-47A9-B952-242012CFC22F}|DVLD\\DVLD.csproj|solutionrelative:dvld\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{18C5076D-2267-47A9-B952-242012CFC22F}|DVLD\\DVLD.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\dvld\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18C5076D-2267-47A9-B952-242012CFC22F}|DVLD\\DVLD.csproj|solutionrelative:dvld\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18C5076D-2267-47A9-B952-242012CFC22F}|DVLD\\DVLD.csproj|C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\dvld\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18C5076D-2267-47A9-B952-242012CFC22F}|DVLD\\DVLD.csproj|solutionrelative:dvld\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18C5076D-2267-47A9-B952-242012CFC22F}|DVLD\\DVLD.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\dvld\\people\\addperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18C5076D-2267-47A9-B952-242012CFC22F}|DVLD\\DVLD.csproj|solutionrelative:dvld\\people\\addperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18C5076D-2267-47A9-B952-242012CFC22F}|DVLD\\DVLD.csproj|C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\dvld\\people\\addperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18C5076D-2267-47A9-B952-242012CFC22F}|DVLD\\DVLD.csproj|solutionrelative:dvld\\people\\addperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,28 +33,45 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\DVLD\\Form1.cs",
-              "RelativeDocumentMoniker": "DVLD\\Form1.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\DVLD\\Form1.cs",
-              "RelativeToolTip": "DVLD\\Form1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIA0wBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T10:36:26.439Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\DVLD\\Form1.cs",
-              "RelativeDocumentMoniker": "DVLD\\Form1.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\DVLD\\Form1.cs [Design]",
-              "RelativeToolTip": "DVLD\\Form1.cs [Design]",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\DVLD\\Program.cs",
+              "RelativeDocumentMoniker": "DVLD\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\DVLD\\Program.cs*",
+              "RelativeToolTip": "DVLD\\Program.cs*",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T10:01:12.589Z",
+              "WhenOpened": "2024-10-16T18:04:01.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddPerson.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\DVLD\\People\\AddPerson.cs",
+              "RelativeDocumentMoniker": "DVLD\\People\\AddPerson.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\DVLD\\People\\AddPerson.cs",
+              "RelativeToolTip": "DVLD\\People\\AddPerson.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:27:32.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddPerson.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\DVLD\\People\\AddPerson.cs",
+              "RelativeDocumentMoniker": "DVLD\\People\\AddPerson.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\DVLD\\People\\AddPerson.cs [Design]",
+              "RelativeToolTip": "DVLD\\People\\AddPerson.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:14:10.258Z",
               "EditorCaption": " [Design]"
             }
           ]
