@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             menuStrip1 = new System.Windows.Forms.MenuStrip();
             applicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             drivingLicensesServicesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -283,9 +284,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.Car;
-            pictureBox1.Location = new System.Drawing.Point(-2, 88);
+            pictureBox1.Location = new System.Drawing.Point(82, -2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new System.Drawing.Size(1883, 985);
+            pictureBox1.Size = new System.Drawing.Size(1883, 1068);
             pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
@@ -293,20 +294,22 @@
             // panel1
             // 
             panel1.BackColor = System.Drawing.Color.White;
+            panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             panel1.Controls.Add(menuStrip2);
-            panel1.Location = new System.Drawing.Point(-5, -1);
+            panel1.Location = new System.Drawing.Point(0, -1);
             panel1.Name = "panel1";
-            panel1.Size = new System.Drawing.Size(1876, 92);
+            panel1.Size = new System.Drawing.Size(295, 1067);
             panel1.TabIndex = 4;
             // 
             // menuStrip2
             // 
             menuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { toolStripMenuItem1, toolStripMenuItem16, toolStripMenuItem17, toolStripMenuItem18, toolStripMenuItem19 });
+            menuStrip2.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow;
             menuStrip2.Location = new System.Drawing.Point(0, 0);
             menuStrip2.Name = "menuStrip2";
             menuStrip2.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            menuStrip2.Size = new System.Drawing.Size(1876, 72);
+            menuStrip2.Size = new System.Drawing.Size(293, 346);
             menuStrip2.TabIndex = 3;
             menuStrip2.Text = "menuStrip2";
             // 
@@ -317,7 +320,7 @@
             toolStripMenuItem1.Image = Properties.Resources.Applications_64;
             toolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             toolStripMenuItem1.Name = "toolStripMenuItem1";
-            toolStripMenuItem1.Size = new System.Drawing.Size(199, 68);
+            toolStripMenuItem1.Size = new System.Drawing.Size(285, 68);
             toolStripMenuItem1.Text = "Application";
             // 
             // toolStripMenuItem2
@@ -442,7 +445,7 @@
             toolStripMenuItem16.Image = Properties.Resources.People_64;
             toolStripMenuItem16.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             toolStripMenuItem16.Name = "toolStripMenuItem16";
-            toolStripMenuItem16.Size = new System.Drawing.Size(153, 68);
+            toolStripMenuItem16.Size = new System.Drawing.Size(285, 68);
             toolStripMenuItem16.Text = "People";
             // 
             // toolStripMenuItem17
@@ -451,7 +454,7 @@
             toolStripMenuItem17.Image = Properties.Resources.Drivers_641;
             toolStripMenuItem17.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             toolStripMenuItem17.Name = "toolStripMenuItem17";
-            toolStripMenuItem17.Size = new System.Drawing.Size(158, 68);
+            toolStripMenuItem17.Size = new System.Drawing.Size(285, 68);
             toolStripMenuItem17.Text = "Drivers";
             // 
             // toolStripMenuItem18
@@ -460,7 +463,7 @@
             toolStripMenuItem18.Image = Properties.Resources.Users_2_64;
             toolStripMenuItem18.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             toolStripMenuItem18.Name = "toolStripMenuItem18";
-            toolStripMenuItem18.Size = new System.Drawing.Size(141, 68);
+            toolStripMenuItem18.Size = new System.Drawing.Size(285, 68);
             toolStripMenuItem18.Text = "Users";
             // 
             // toolStripMenuItem19
@@ -470,7 +473,7 @@
             toolStripMenuItem19.Image = Properties.Resources.account_settings_64;
             toolStripMenuItem19.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             toolStripMenuItem19.Name = "toolStripMenuItem19";
-            toolStripMenuItem19.Size = new System.Drawing.Size(251, 68);
+            toolStripMenuItem19.Size = new System.Drawing.Size(285, 68);
             toolStripMenuItem19.Text = "Account Settings";
             // 
             // toolStripMenuItem20
@@ -508,6 +511,7 @@
             Controls.Add(pictureBox1);
             ForeColor = System.Drawing.SystemColors.ControlText;
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
             IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
             Margin = new System.Windows.Forms.Padding(5);
