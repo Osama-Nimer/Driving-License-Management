@@ -8,7 +8,7 @@ namespace DataLayer
         public static bool GetCountryById(int CountryID , ref String CountryName){
             bool IsFound = false ;
             SqlConnection connection = new SqlConnection(ConnString.ConnectionString);
-            String Query = "Select * from Countries whrere CountryID = @CountryID";
+            String Query = "Select * from Countries where CountryID = @CountryID";
             SqlCommand command = new SqlCommand(Query ,connection);
             command.Parameters.AddWithValue("@CountryID",CountryID);
             try
@@ -40,9 +40,9 @@ namespace DataLayer
         public static bool GetCountryByName(String CountryName, ref int CountryID ){
             bool IsFound =false ;
             SqlConnection connection = new SqlConnection(ConnString.ConnectionString);
-            String Query = "Select * from Countries whrere CountryName = @CountryName";
+            String Query = "Select * from Countries where CountryName = @CountryName";
             SqlCommand command =new SqlCommand(Query ,connection);
-            command.Parameters.AddWithValue("@CountryID",CountryID);
+            command.Parameters.AddWithValue("@CountryName", CountryName);
             try
             {
                 connection.Open();
@@ -51,10 +51,6 @@ namespace DataLayer
                     IsFound=true;
                     CountryID = (int) reader["CountryID"];
                     reader.Close();
-                }
-                else
-                {
-                    IsFound =false;
                 }
 
             }

@@ -37,10 +37,10 @@ namespace BuisnessLayer
         }
 
         public static Country _Find(string CountryName){
-            int CountryID = -1;
-            if(CountryDataAccess.GetCountryByName(CountryName ,ref CountryID))
+            int ID = -1;
+            if(CountryDataAccess.GetCountryByName(CountryName ,ref ID))
             {
-                return new Country (CountryID,CountryName);
+                return new Country (ID,CountryName);
             }
             else
             {

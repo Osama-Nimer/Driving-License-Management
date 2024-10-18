@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             groupBox1 = new System.Windows.Forms.GroupBox();
             llRemoveImage = new System.Windows.Forms.LinkLabel();
             pictureBox9 = new System.Windows.Forms.PictureBox();
@@ -71,6 +72,8 @@
             label22 = new System.Windows.Forms.Label();
             pictureBox10 = new System.Windows.Forms.PictureBox();
             lblPersonID = new System.Windows.Forms.Label();
+            openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            errorProvider1 = new System.Windows.Forms.ErrorProvider(components);
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -83,6 +86,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbPersonImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             SuspendLayout();
             // 
             // groupBox1
@@ -143,6 +147,7 @@
             llRemoveImage.TabIndex = 112;
             llRemoveImage.TabStop = true;
             llRemoveImage.Text = "Remove";
+            llRemoveImage.LinkClicked += llRemoveImage_LinkClicked;
             // 
             // pictureBox9
             // 
@@ -177,6 +182,7 @@
             rbFemale.TabIndex = 8;
             rbFemale.Text = "Female";
             rbFemale.UseVisualStyleBackColor = true;
+            rbFemale.CheckedChanged += rbFemale_CheckedChanged;
             // 
             // rbMale
             // 
@@ -190,6 +196,7 @@
             rbMale.TabStop = true;
             rbMale.Text = "Male";
             rbMale.UseVisualStyleBackColor = true;
+            rbMale.CheckedChanged += rbMale_CheckedChanged;
             // 
             // label5
             // 
@@ -276,6 +283,7 @@
             llSetImage.TabIndex = 13;
             llSetImage.TabStop = true;
             llSetImage.Text = "Set Image";
+            llSetImage.LinkClicked += llSetImage_LinkClicked;
             // 
             // pictureBox7
             // 
@@ -368,6 +376,7 @@
             btnClose.TabIndex = 15;
             btnClose.Text = "Close";
             btnClose.UseVisualStyleBackColor = true;
+            btnClose.Click += btnClose_Click;
             // 
             // label15
             // 
@@ -409,6 +418,7 @@
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new System.Drawing.Size(190, 27);
             txtEmail.TabIndex = 10;
+            txtEmail.Validating += txtEmail_Validating;
             // 
             // label6
             // 
@@ -460,6 +470,7 @@
             txtNationalNo.Name = "txtNationalNo";
             txtNationalNo.Size = new System.Drawing.Size(190, 27);
             txtNationalNo.TabIndex = 5;
+            txtNationalNo.Validating += txtNationalNo_Validating;
             // 
             // label2
             // 
@@ -545,6 +556,7 @@
             btnSave.TabIndex = 14;
             btnSave.Text = "Save";
             btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += btnSave_Click;
             // 
             // lblTitle
             // 
@@ -590,6 +602,14 @@
             lblPersonID.TabIndex = 115;
             lblPersonID.Text = "N/A";
             // 
+            // openFileDialog1
+            // 
+            openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // errorProvider1
+            // 
+            errorProvider1.ContainerControl = this;
+            // 
             // AddPerson
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -619,6 +639,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbPersonImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -668,5 +689,7 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Label lblPersonID;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
