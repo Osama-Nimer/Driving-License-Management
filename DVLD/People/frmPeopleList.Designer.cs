@@ -1,4 +1,6 @@
-﻿namespace DVLD.People
+﻿using DVLD.Properties;
+
+namespace DVLD.People
 {
     partial class frmPeopleList
     {
@@ -28,7 +30,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPeopleList));
             pictureBox1 = new System.Windows.Forms.PictureBox();
             dataGridView1 = new System.Windows.Forms.DataGridView();
             txtFilterValue = new System.Windows.Forms.TextBox();
@@ -43,7 +44,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (System.Drawing.Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Image = Resources.People_64;
             pictureBox1.Location = new System.Drawing.Point(622, 57);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new System.Drawing.Size(245, 208);
@@ -114,7 +115,7 @@
             // button1
             // 
             button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            button1.Image = (System.Drawing.Image)resources.GetObject("button1.Image");
+            button1.Image = Resources.AddPerson_32;
             button1.Location = new System.Drawing.Point(1362, 287);
             button1.Name = "button1";
             button1.Size = new System.Drawing.Size(70, 63);
