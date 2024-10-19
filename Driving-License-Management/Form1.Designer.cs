@@ -311,7 +311,7 @@ namespace DVLD
             menuStrip2.Location = new System.Drawing.Point(0, 0);
             menuStrip2.Name = "menuStrip2";
             menuStrip2.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            menuStrip2.Size = new System.Drawing.Size(293, 346);
+            menuStrip2.Size = new System.Drawing.Size(293, 370);
             menuStrip2.TabIndex = 3;
             menuStrip2.Text = "menuStrip2";
             // 
@@ -449,6 +449,7 @@ namespace DVLD
             toolStripMenuItem16.Name = "toolStripMenuItem16";
             toolStripMenuItem16.Size = new System.Drawing.Size(285, 68);
             toolStripMenuItem16.Text = "People";
+            toolStripMenuItem16.Click += toolStripMenuItem16_Click;
             // 
             // toolStripMenuItem17
             // 

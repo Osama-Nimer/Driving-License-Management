@@ -5,7 +5,13 @@
     <Compile Update="People\AddPerson.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="People\frmFindPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="People\frmPeopleList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="People\frmShowPersonInfo.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

@@ -33,7 +33,7 @@ namespace DVLD.People.Controls
             _Person = clsPepoleBuisness.Find(PersonID);
             if (_Person == null)
             {
-                //_ResetPersonInfp();
+                _ResetPersonInfp();
                 MessageBox.Show($"No Person With ID {PersonID}", "Error");
                 return;
             }
@@ -54,7 +54,7 @@ namespace DVLD.People.Controls
         public void _FillPersonInfo()
         {
             llEditPersonInfo.Enabled = true;
-            lblPersonID.Text = _PersonID.ToString();
+            lblPersonID.Text = _Person.PersonID.ToString();
             lblFullName.Text = _Person.FullName;
             lblNationalNo.Text = _Person.NationalNo;
             lblEmail.Text = _Person.Email;

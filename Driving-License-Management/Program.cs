@@ -1,4 +1,5 @@
-﻿using DVLD;
+﻿using Driving_License_Management.People;
+using DVLD;
 using DVLD.People;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace Driving_License_Management
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPeopleList());
+            Application.Run(new Form1());
         }
     }
 }
