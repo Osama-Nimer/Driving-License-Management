@@ -8,5 +8,11 @@
     <Compile Update="People\AddPerson.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="People\frmPeopleList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="People\PeopleDataTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

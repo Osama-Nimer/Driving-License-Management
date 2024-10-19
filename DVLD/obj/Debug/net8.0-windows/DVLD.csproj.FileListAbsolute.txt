@@ -33,3 +33,5 @@ C:\Users\ASUS\Documents\FullStack\19\DVLD\DVLD\obj\Debug\net8.0-windows\refint\D
 C:\Users\ASUS\Documents\FullStack\19\DVLD\DVLD\obj\Debug\net8.0-windows\DVLD.pdb
 C:\Users\ASUS\Documents\FullStack\19\DVLD\DVLD\obj\Debug\net8.0-windows\DVLD.genruntimeconfig.cache
 C:\Users\ASUS\Documents\FullStack\19\DVLD\DVLD\obj\Debug\net8.0-windows\ref\DVLD.dll
+C:\Users\ASUS\Documents\FullStack\19\DVLD\DVLD\obj\Debug\net8.0-windows\DVLD.People.frmPeopleList.resources
+C:\Users\ASUS\Documents\FullStack\19\DVLD\DVLD\obj\Debug\net8.0-windows\DVLD.People.PeopleDataTable.resources
