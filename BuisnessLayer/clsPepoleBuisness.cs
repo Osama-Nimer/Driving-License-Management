@@ -73,7 +73,8 @@ public class clsPepoleBuisness
             this.NationalityCountryID = NationalityCountryID;
             this.ImagePath = ImagePath;
             this.CountryInfo = Country._Find(NationalityCountryID);
-            Mode = enMode.Update;
+            
+        Mode = enMode.Update;
         }
 
 public static clsPepoleBuisness Find(int PersonID)
@@ -84,21 +85,26 @@ public static clsPepoleBuisness Find(int PersonID)
     int NationalityCountryID = -1;
     short Gendor = 0;
 
-    bool IsFound = clsPepoleData.GetPersonInfoByID 
-                        (
-                            PersonID, ref FirstName, ref SecondName,
-                            ref ThirdName, ref LastName, ref NationalNo, ref DateOfBirth,
-                            ref Gendor, ref Address, ref Phone, ref Email,
-                            ref NationalityCountryID, ref ImagePath
-                        );
+        bool IsFound = clsPepoleData.GetPersonInfoByID(PersonID, ref FirstName, ref SecondName,
+                                                        ref ThirdName, ref LastName, ref NationalNo, ref DateOfBirth,
+                                                        ref Gendor, ref Address, ref Phone, ref Email,
+                                                        ref NationalityCountryID, ref ImagePath);
 
-    if (IsFound)
-        //we return new object of that person with the right data
-        return new clsPepoleBuisness(PersonID, FirstName,SecondName ,ThirdName, LastName,
-                  NationalNo, DateOfBirth,Gendor, Address, Phone, Email,NationalityCountryID, ImagePath);
-    else
-        return null;
-}
+        if (IsFound)
+        {
+            Console.WriteLine($"Person found with ID: {PersonID}");
+            return new clsPepoleBuisness(PersonID,  FirstName,  SecondName,
+                                                     ThirdName, LastName, NationalNo, DateOfBirth,
+                                                    Gendor, Address, Phone, Email,
+                                                    NationalityCountryID, ImagePath);
+        }
+        else
+        {
+            
+            Console.WriteLine($"No person found for ID: {PersonID}");
+            return null;
+        }
+    }
 
 
 public static clsPepoleBuisness Find(String NationalNo)

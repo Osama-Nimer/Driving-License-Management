@@ -64,18 +64,22 @@ namespace DVLD.People.Controls
         {
             cbFilterBy.SelectedIndex = 1;
             txtFilterValue.Text = PersonID.ToString();
-            //FindNow();
+            FindNow();
         }
 
         public void FindNow()
         {
+            int personID;
             switch (cbFilterBy.Text)
             {
-                case "PersonID":
-                    ctrlPersonCard1.LoadPersonInfo(int.Parse(txtFilterValue.Text));
+                case "Person ID":
+                    if (int.TryParse(txtFilterValue.Text, out personID))
+                    {
+                        ctrlPersonCard1.LoadPersonInfo(personID);
+                    }
                     break;
                 case "National No.":
-                    ctrlPersonCard1.LoadPersonInfo(int.Parse(txtFilterValue.Text));
+                    ctrlPersonCard1.LoadPersonInfo(txtFilterValue.Text);
                     break;
                 default:
                     break;
@@ -84,6 +88,7 @@ namespace DVLD.People.Controls
             if (OnPersonSelected != null && FilterEnabled)
                 OnPersonSelected(ctrlPersonCard1.PersonID);
         }
+
         private void btnAddNewPerson_Click(object sender, EventArgs e)
         {
             AddPerson frm = new AddPerson();

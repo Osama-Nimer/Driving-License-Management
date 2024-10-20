@@ -5,36 +5,38 @@ namespace DataLayer
 {
     public class CountryDataAccess
     {
-        public static bool GetCountryById(int CountryID , ref String CountryName){
-            bool IsFound = false ;
-            SqlConnection connection = new SqlConnection(ConnString.ConnectionString);
-            String Query = "Select * from Countries where CountryID = @CountryID";
-            SqlCommand command = new SqlCommand(Query ,connection);
-            command.Parameters.AddWithValue("@CountryID",CountryID);
-            try
-            {
-                connection.Open();
-                SqlDataReader reader = command.ExecuteReader();
-                if(reader.Read()){
-                    IsFound=true;
-                    CountryName = (String) reader["CountryName"];
-                    reader.Close();
-                }
-                else
-                {
-                    IsFound =false;
-                }
+        public static bool GetCountryById(int CountryID, ref string CountryName)
+        {
+            bool IsFound = false;
+            string Query = "SELECT CountryName FROM Countries WHERE CountryID = @CountryID";
 
-            }
-            catch (Exception e)
+            using (SqlConnection connection = new SqlConnection(ConnString.ConnectionString))
+            using (SqlCommand command = new SqlCommand(Query, connection))
             {
-                Console.WriteLine(e.Message);
+                command.Parameters.AddWithValue("@CountryID", CountryID);
+
+                try
+                {
+                    connection.Open();
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            IsFound = true;
+                            CountryName = reader["CountryName"].ToString();
+                        }
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString()); // Log full exception details
+                    throw; // Re-throw the exception
+                }
             }
-            finally{
-                connection.Close();
-            }
+
             return IsFound;
         }
+
 
 
         public static bool GetCountryByName(String CountryName, ref int CountryID ){

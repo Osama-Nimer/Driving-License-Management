@@ -33,18 +33,20 @@ namespace DVLD.People.Controls
             _Person = clsPepoleBuisness.Find(PersonID);
             if (_Person == null)
             {
-                _ResetPersonInfp();
+                //_ResetPersonInfp();
                 MessageBox.Show($"No Person With ID {PersonID}", "Error");
                 return;
             }
+            _PersonID = PersonID;
             _FillPersonInfo();
+            
         }
         public void LoadPersonInfo(string NationalNo)
         {
             _Person = clsPepoleBuisness.Find(NationalNo);
             if (_Person == null)
             {
-                //_ResetPersonInfp();
+                _ResetPersonInfp();
                 MessageBox.Show($"No Person With ID {NationalNo}", "Error");
                 return;
             }
@@ -62,7 +64,17 @@ namespace DVLD.People.Controls
             lblPhone.Text = _Person.Phone;
             lblDateOfBirth.Text = _Person.DateOfBirth.ToShortDateString();
             lblGendor.Text = _Person.Gendor == 0 ? "Male" : "Female";
-            lblCountry.Text = Country._Find(_Person.NationalityCountryID).CountryName;
+
+            var country = Country._Find(_Person.NationalityCountryID);
+            if (country != null)
+            {
+                lblCountry.Text = country.CountryName;
+            }
+            else
+            {
+                lblCountry.Text = "Country not found";
+            }
+
             _LoadPersonImage();
         }
         public void _LoadPersonImage()
@@ -85,7 +97,7 @@ namespace DVLD.People.Controls
             lblFullName.Text = "";
             lblNationalNo.Text = "";
             lblEmail.Text = "";
-            lblAddress.Text = _Person.Address;
+            lblAddress.Text ="";
             lblPhone.Text = "";
             lblDateOfBirth.Text = "";
             lblGendor.Text = "";

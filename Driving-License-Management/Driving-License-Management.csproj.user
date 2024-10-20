@@ -17,5 +17,8 @@
     <Compile Update="Users\ctrlUserCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Users\frmAddUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

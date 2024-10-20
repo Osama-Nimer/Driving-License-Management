@@ -35,7 +35,7 @@
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             Name = "ctrlUserCard";
-            Size = new System.Drawing.Size(1042, 439);
+            Size = new System.Drawing.Size(1110, 491);
             ResumeLayout(false);
         }
 

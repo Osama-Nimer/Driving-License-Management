@@ -18,7 +18,7 @@ namespace BuisnessLayer
             this.CountryName = "";
         }
 
-        private Country(int CountryID ,String CountryName)
+        private Country(int CountryID ,string CountryName)
         {
             this.CountryID = CountryID;
             this.CountryName = CountryName;
@@ -47,6 +47,7 @@ namespace BuisnessLayer
                 return null;
             }
         }
+
         public static DataTable _GetAllCountries(){
             return CountryDataAccess.GetAllCountries();
         }

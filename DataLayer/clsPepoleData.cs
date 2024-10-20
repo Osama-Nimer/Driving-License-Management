@@ -62,7 +62,7 @@ public class clsPepoleData
         return isFound;
     }
 
-    public static bool GetPersonInfoByNationalNo(String NationalNo, ref int PersonID, ref string FirstName, ref string SecondName,
+    public static bool GetPersonInfoByNationalNo(string NationalNo, ref int PersonID, ref string FirstName, ref string SecondName,
     ref string ThirdName, ref string LastName, ref DateTime DateOfBirth,
     ref short Gendor, ref string Address, ref string Phone, ref string Email,
     ref int NationalityCountryID, ref string ImagePath)
@@ -88,7 +88,7 @@ public class clsPepoleData
                     ThirdName = "";
                 LastName = (String)reader["LastName"];
                 DateOfBirth = (DateTime)reader["DateOfBirth"];
-                Gendor = (short)reader["Gendor"];
+                Gendor = (byte)reader["Gendor"];
                 Address = (String)reader["Address"];
                 Phone = (String)reader["Phone"];
                 if (reader["Email"] != DBNull.Value)

@@ -1,4 +1,5 @@
 ﻿using Driving_License_Management.People;
+using Driving_License_Management.Users;
 using DVLD;
 using DVLD.People;
 using System;
@@ -19,7 +20,7 @@ namespace Driving_License_Management
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmFindPerson());
         }
     }
 }

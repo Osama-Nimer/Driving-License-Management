@@ -42,3 +42,5 @@ C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\bin\Debug\n
 C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\bin\Debug\net8.0-windows\DVLD.dll.config
 C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.People.frmFindPerson.resources
 C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.People.frmShowPersonInfo.resources
+C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.Users.ctrlUserCard.resources
+C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.Users.frmAddUpdateUser.resources
