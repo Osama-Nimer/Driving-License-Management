@@ -20,7 +20,7 @@ namespace Driving_License_Management
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmFindPerson());
+            Application.Run(new frmAddUpdateUser());
         }
     }
 }
