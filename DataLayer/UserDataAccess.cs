@@ -103,7 +103,7 @@ namespace DataLayer
             SqlConnection connection = new SqlConnection(ConnString.ConnectionString);
             string Query = @"INSERT INTO Users(PersonID,UserName,Password,IsActive)
                                 VALUES(@PersonID ,@UserName, @Password, @IsActive);
-                                select SCOPE_IDENTITY;";
+                                SELECT SCOPE_IDENTITY();";
             SqlCommand command = new SqlCommand(Query , connection);
             command.Parameters.AddWithValue("@PersonID",PersonID);
             command.Parameters.AddWithValue("@UserName",UserName);

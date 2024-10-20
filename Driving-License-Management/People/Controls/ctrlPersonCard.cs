@@ -50,6 +50,7 @@ namespace DVLD.People.Controls
                 MessageBox.Show($"No Person With ID {NationalNo}", "Error");
                 return;
             }
+            _PersonID = _Person.PersonID;
             _FillPersonInfo();
         }
 

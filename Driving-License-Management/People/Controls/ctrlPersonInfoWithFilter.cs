@@ -60,7 +60,7 @@ namespace DVLD.People.Controls
             get => ctrlPersonCard1.SelectedPersonInfo;
         }
 
-        public void LoadPersonInfo()
+        public void LoadPersonInfo(int PersonID)
         {
             cbFilterBy.SelectedIndex = 1;
             txtFilterValue.Text = PersonID.ToString();

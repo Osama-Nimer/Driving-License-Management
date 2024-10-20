@@ -50,7 +50,7 @@ namespace BuisnessLayer
             return (UserID !=-1); 
         }
 
-        private bool _UpdatePerson(){
+        private bool _UpdateUser(){
             return UserDataAccess.UpdateUser(this.UserID,this.PersonID,this.UserName,this.Password,this.IsActive);
         }
 
@@ -64,7 +64,7 @@ namespace BuisnessLayer
                     else
                         return false;
                 case enMode.Update:
-                    return _UpdatePerson();
+                    return _UpdateUser();
                 }
             return false;
         } 
