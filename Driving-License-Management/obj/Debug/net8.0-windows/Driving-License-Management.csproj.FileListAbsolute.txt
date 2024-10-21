@@ -46,3 +46,5 @@ C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\n
 C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.Users.frmAddUpdateUser.resources
 C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.Users.frmUserInfo.resources
 C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.Users.frmChangePassword.resources
+C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.Users.UsersList.resources
+C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.Login_Page.LoginPage.resources

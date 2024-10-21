@@ -311,7 +311,7 @@ namespace DVLD
             menuStrip2.Location = new System.Drawing.Point(0, 0);
             menuStrip2.Name = "menuStrip2";
             menuStrip2.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            menuStrip2.Size = new System.Drawing.Size(293, 370);
+            menuStrip2.Size = new System.Drawing.Size(293, 346);
             menuStrip2.TabIndex = 3;
             menuStrip2.Text = "menuStrip2";
             // 
@@ -468,6 +468,7 @@ namespace DVLD
             toolStripMenuItem18.Name = "toolStripMenuItem18";
             toolStripMenuItem18.Size = new System.Drawing.Size(285, 68);
             toolStripMenuItem18.Text = "Users";
+            toolStripMenuItem18.Click += toolStripMenuItem18_Click;
             // 
             // toolStripMenuItem19
             // 
@@ -522,6 +523,7 @@ namespace DVLD
             StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             Text = "DVLD";
             WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

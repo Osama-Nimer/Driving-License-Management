@@ -1,4 +1,5 @@
-﻿using Driving_License_Management.People;
+﻿using Driving_License_Management.Login_Page;
+using Driving_License_Management.People;
 using Driving_License_Management.Users;
 using DVLD;
 using DVLD.People;
@@ -20,7 +21,7 @@ namespace Driving_License_Management
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmChangePassword(20));
+            Application.Run(new LoginPage());
         }
     }
 }

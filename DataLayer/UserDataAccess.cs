@@ -79,7 +79,7 @@ namespace DataLayer
                 SqlDataReader reader = command.ExecuteReader();
                 if(reader.Read())
                 {
-                    IsActive = true;   
+                    IsFound = true;   
                     UserID = (int) reader["UserID"];
                     PersonID = (int) reader["PersonID"];
                     IsActive = (bool) reader["IsActive"];
