@@ -18,7 +18,7 @@ namespace DataLayer
                 SqlDataReader reader = command.ExecuteReader();
                 if(reader.Read())
                 {
-                    IsActive = true;   
+                    IsFound = true;   
                     PersonID = (int) reader["PersonID"];
                     UserName = (string) reader["UserName"];
                     Password = (string) reader["Password"];

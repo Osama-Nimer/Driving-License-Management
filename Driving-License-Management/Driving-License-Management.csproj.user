@@ -20,5 +20,8 @@
     <Compile Update="Users\frmAddUpdateUser.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Users\frmUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

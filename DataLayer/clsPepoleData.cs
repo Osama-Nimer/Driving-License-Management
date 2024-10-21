@@ -11,7 +11,7 @@ public class clsPepoleData
     {
         bool isFound = false;
         SqlConnection conn = new SqlConnection(ConnString.ConnectionString);
-        String Query = "select * from People where PersonID = @PersonID";
+        String Query = "SELECT * FROM People WHERE PersonID = @PersonID";
         SqlCommand command = new SqlCommand(Query, conn);
         command.Parameters.AddWithValue("@PersonID", PersonID);
         try
@@ -53,7 +53,7 @@ public class clsPepoleData
         }
         catch (Exception e)
         {
-            Console.WriteLine(e.Message);
+            Console.WriteLine($"Error while fetching person: {e.Message}");
         }
         finally
         {

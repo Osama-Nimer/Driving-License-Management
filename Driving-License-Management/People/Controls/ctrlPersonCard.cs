@@ -17,7 +17,7 @@ namespace DVLD.People.Controls
     {
 
         private clsPepoleBuisness _Person;
-        private int _PersonID = -1;
+        private int _PersonID =-1;
         public int PersonID { get => _PersonID; }
 
         public clsPepoleBuisness SelectedPersonInfo { get => _Person; }
@@ -31,26 +31,28 @@ namespace DVLD.People.Controls
         public void LoadPersonInfo(int PersonID)
         {
             _Person = clsPepoleBuisness.Find(PersonID);
+            _PersonID = PersonID;
             if (_Person == null)
             {
                 //_ResetPersonInfp();
                 MessageBox.Show($"No Person With ID {PersonID}", "Error");
                 return;
             }
-            _PersonID = PersonID;
+            
             _FillPersonInfo();
             
         }
         public void LoadPersonInfo(string NationalNo)
         {
             _Person = clsPepoleBuisness.Find(NationalNo);
+            _PersonID = _Person.PersonID;
             if (_Person == null)
             {
                 _ResetPersonInfp();
                 MessageBox.Show($"No Person With ID {NationalNo}", "Error");
                 return;
             }
-            _PersonID = _Person.PersonID;
+            
             _FillPersonInfo();
         }
 
