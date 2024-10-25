@@ -48,7 +48,7 @@ namespace Driving_License_Management.Tests
 
         private void editToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmEditLestTestTypes frm = new frmEditLestTestTypes((int)dgvTestTypes.CurrentRow.Cells[0].Value);
+            frmEditLestTestTypes frm = new frmEditLestTestTypes((TestTyps.enTestType) dgvTestTypes.CurrentRow.Cells[0].Value);
             frm.ShowDialog();
         }
     }

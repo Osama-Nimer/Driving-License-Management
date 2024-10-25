@@ -10,56 +10,94 @@ namespace BuisnessLayer
     public class TestTyps
     {
 
-        /*
-            2 Enums :)
-        */
-        public int TestTypsID { get; set; }
-        public string TestTypeTitle { get; set; }
-        public string TestTypeDescription { get; set; }
-        public float TestTypeFees { get; set; }
-    
-    
+        public enum enMode { AddNew = 0, Update = 1 };
+        public enMode Mode = enMode.AddNew;
+        public enum enTestType { VisionTest = 1, WrittenTest = 2, StreetTest = 3 };
+
+        public TestTyps.enTestType ID { set; get; }
+        public string Title { set; get; }
+        public string Description { set; get; }
+        public float Fees { set; get; }
         public TestTyps()
+
         {
-            this.TestTypsID = 1;
-            this.TestTypeTitle = "";
-            this.TestTypeDescription = "";
-            this.TestTypeFees = 0;
+            this.ID = TestTyps.enTestType.VisionTest;
+            this.Title = "";
+            this.Description = "";
+            this.Fees = 0;
+            Mode = enMode.AddNew;
+
         }
 
-        private TestTyps(int TestTypeID ,string TestTypeTitle ,string TestTypeDescription ,float TestTypeFees)
+        public TestTyps(TestTyps.enTestType ID, string TestTypeTitel, string Description, float TestTypeFees)
+
         {
-            this.TestTypsID = TestTypeID;
-            this.TestTypeTitle = TestTypeTitle;
-            this.TestTypeDescription = TestTypeDescription;
-            this.TestTypeFees = TestTypeFees;
+            this.ID = ID;
+            this.Title = TestTypeTitel;
+            this.Description = Description;
+
+            this.Fees = TestTypeFees;
+            Mode = enMode.Update;
         }
 
+        private bool _AddNewTestType()
+        {
+            //call DataAccess Layer 
 
-        public static TestTyps _GetTestTypeByID(int TestTypeID){
-           string TestTypeTitle = "";
-           string TestTypeDescription = "";
-           float TestTypeFees = 0;
+            this.ID = (TestTyps.enTestType)TestTypsDataAccess.AddNewTestType(this.Title, this.Description, this.Fees);
 
-           bool IsFound = TestTypsDataAccess.GetTestTypeByID(TestTypeID , ref TestTypeTitle , ref TestTypeDescription , ref TestTypeFees);
-        
-            if(IsFound)
-                return new TestTyps ( TestTypeID , TestTypeTitle , TestTypeDescription , TestTypeFees);
+            return (this.Title != "");
+        }
+
+        private bool _UpdateTestType()
+        {
+            //call DataAccess Layer 
+
+            return TestTypsDataAccess.UpdateTestType((int)this.ID, this.Title, this.Description, this.Fees);
+        }
+
+        public static TestTyps Find(TestTyps.enTestType TestTypeID)
+        {
+            string Title = "", Description = ""; float Fees = 0;
+
+            if (TestTypsDataAccess.GetTestTypeByID((int)TestTypeID, ref Title, ref Description, ref Fees))
+
+                return new TestTyps(TestTypeID, Title, Description, Fees);
             else
                 return null;
-        }
 
+        }
 
         public static DataTable GetAllTestTypes()
         {
             return TestTypsDataAccess.GetAllTestTyps();
+
         }
 
-        /*
-        Add 
-        Update 
-        save 
-        ....
-        */
+        public bool Save()
+        {
+            switch (Mode)
+            {
+                case enMode.AddNew:
+                    if (_AddNewTestType())
+                    {
+
+                        Mode = enMode.Update;
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+
+                case enMode.Update:
+
+                    return _UpdateTestType();
+
+            }
+
+            return false;
+        }
+
     }
 }
