@@ -48,3 +48,7 @@ C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\n
 C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.Users.frmChangePassword.resources
 C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.Users.UsersList.resources
 C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.Login_Page.LoginPage.resources
+C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.Applications.Applications_Types.frmListAppTypes.resources
+C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.Applications.Applications_Types.frmEditApplicationType.resources
+C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.Tests.frmLestTestTypes.resources
+C:\Users\ASUS\Documents\FullStack\19\DVLD\Driving-License-Management\obj\Debug\net8.0-windows\Driving_License_Management.Tests.Test_Types.frmEditLestTestTypes.resources

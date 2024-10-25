@@ -1,5 +1,7 @@
-﻿using Driving_License_Management.Global_Classes;
+﻿using Driving_License_Management.Applications.Applications_Types;
+using Driving_License_Management.Global_Classes;
 using Driving_License_Management.Login_Page;
+using Driving_License_Management.Tests;
 using Driving_License_Management.Users;
 using DVLD.People;
 using System;
@@ -37,7 +39,27 @@ namespace DVLD
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void toolStripMenuItem21_Click(object sender, EventArgs e)
+        {
+
+            frmChangePassword frm = new frmChangePassword(Global.CurrentUser.UserID);
+            frm.ShowDialog();
+
+        }
+
+        private void toolStripMenuItem14_Click(object sender, EventArgs e)
+        {
+            frmListAppTypes frm = new frmListAppTypes();
+            frm.ShowDialog();
+        }
+
+        private void toolStripMenuItem15_Click(object sender, EventArgs e)
+        {
+            frmLestTestTypes frm = new frmLestTestTypes();
+            frm.ShowDialog();
         }
     }
 }

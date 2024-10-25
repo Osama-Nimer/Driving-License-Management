@@ -3,28 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46338572-67AB-4880-87A8-675D5AE29FC2}|DataLayer\\DataLayer.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\datalayer\\userdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46338572-67AB-4880-87A8-675D5AE29FC2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\userdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\tests\\test types\\frmeditlesttesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\tests\\test types\\frmeditlesttesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\login page\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\login page\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\tests\\test types\\frmlesttesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\tests\\test types\\frmlesttesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\login page\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\login page\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\tests\\test types\\frmeditlesttesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\tests\\test types\\frmeditlesttesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\global classes\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\global classes\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\applications\\applications types\\frmlistapptypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\applications\\applications types\\frmlistapptypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\tests\\test types\\frmlesttesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\tests\\test types\\frmlesttesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\driving-license-management\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C32F65E9-DC67-417E-8389-549D52C21D61}|BuisnessLayer\\BuisnessLayer.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\buisnesslayer\\testtyps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C32F65E9-DC67-417E-8389-549D52C21D61}|BuisnessLayer\\BuisnessLayer.csproj|solutionrelative:buisnesslayer\\testtyps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\driving-license-management\\applications\\applications types\\frmlistapptypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\applications\\applications types\\frmlistapptypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\tests\\test types\\frmlesttesttypes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\tests\\test types\\frmlesttesttypes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\driving-license-management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\driving-license-management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\applications\\applications types\\frmeditapplicationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\applications\\applications types\\frmeditapplicationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\driving-license-management\\applications\\applications types\\frmeditapplicationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\applications\\applications types\\frmeditapplicationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\driving-license-management\\login page\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\login page\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\login page\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\login page\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46338572-67AB-4880-87A8-675D5AE29FC2}|DataLayer\\DataLayer.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\datalayer\\userdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46338572-67AB-4880-87A8-675D5AE29FC2}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\userdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\global classes\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|solutionrelative:driving-license-management\\global classes\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C7ADB21-632B-4D39-8FA6-888FB314DCEE}|Driving-License-Management\\Driving-License-Management.csproj|c:\\users\\asus\\documents\\fullstack\\19\\dvld\\driving-license-management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,32 +103,145 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\DataLayer\\UserDataAccess.cs",
-              "RelativeDocumentMoniker": "DataLayer\\UserDataAccess.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\DataLayer\\UserDataAccess.cs",
-              "RelativeToolTip": "DataLayer\\UserDataAccess.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAswFEAAAAbAAAAAAAAAA==",
+              "Title": "frmEditLestTestTypes.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Tests\\Test Types\\frmEditLestTestTypes.cs",
+              "RelativeDocumentMoniker": "Driving-License-Management\\Tests\\Test Types\\frmEditLestTestTypes.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Tests\\Test Types\\frmEditLestTestTypes.cs",
+              "RelativeToolTip": "Driving-License-Management\\Tests\\Test Types\\frmEditLestTestTypes.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAASwBAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T15:02:30.764Z",
+              "WhenOpened": "2024-10-25T15:56:13.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Global.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Global Classes\\Global.cs",
-              "RelativeDocumentMoniker": "Driving-License-Management\\Global Classes\\Global.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Global Classes\\Global.cs",
-              "RelativeToolTip": "Driving-License-Management\\Global Classes\\Global.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "frmEditLestTestTypes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Tests\\Test Types\\frmEditLestTestTypes.cs",
+              "RelativeDocumentMoniker": "Driving-License-Management\\Tests\\Test Types\\frmEditLestTestTypes.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Tests\\Test Types\\frmEditLestTestTypes.cs [Design]",
+              "RelativeToolTip": "Driving-License-Management\\Tests\\Test Types\\frmEditLestTestTypes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T14:46:26.25Z",
+              "WhenOpened": "2024-10-25T15:55:23.024Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestTyps.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\BuisnessLayer\\TestTyps.cs",
+              "RelativeDocumentMoniker": "BuisnessLayer\\TestTyps.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\BuisnessLayer\\TestTyps.cs",
+              "RelativeToolTip": "BuisnessLayer\\TestTyps.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAASwDYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T15:47:34.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frmLestTestTypes.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Tests\\Test Types\\frmLestTestTypes.cs",
+              "RelativeDocumentMoniker": "Driving-License-Management\\Tests\\Test Types\\frmLestTestTypes.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Tests\\Test Types\\frmLestTestTypes.cs",
+              "RelativeToolTip": "Driving-License-Management\\Tests\\Test Types\\frmLestTestTypes.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T15:38:52.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmLestTestTypes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Tests\\Test Types\\frmLestTestTypes.cs",
+              "RelativeDocumentMoniker": "Driving-License-Management\\Tests\\Test Types\\frmLestTestTypes.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Tests\\Test Types\\frmLestTestTypes.cs [Design]",
+              "RelativeToolTip": "Driving-License-Management\\Tests\\Test Types\\frmLestTestTypes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T15:34:01.918Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmListAppTypes.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Applications\\Applications Types\\frmListAppTypes.cs",
+              "RelativeDocumentMoniker": "Driving-License-Management\\Applications\\Applications Types\\frmListAppTypes.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Applications\\Applications Types\\frmListAppTypes.cs",
+              "RelativeToolTip": "Driving-License-Management\\Applications\\Applications Types\\frmListAppTypes.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIAwwB4AAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T19:12:48.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Form1.cs",
+              "RelativeDocumentMoniker": "Driving-License-Management\\Form1.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Form1.cs [Design]",
+              "RelativeToolTip": "Driving-License-Management\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:40:41.239Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Form1.cs",
+              "RelativeDocumentMoniker": "Driving-License-Management\\Form1.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Form1.cs",
+              "RelativeToolTip": "Driving-License-Management\\Form1.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAASwD0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:40:44.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmListAppTypes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Applications\\Applications Types\\frmListAppTypes.cs",
+              "RelativeDocumentMoniker": "Driving-License-Management\\Applications\\Applications Types\\frmListAppTypes.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Applications\\Applications Types\\frmListAppTypes.cs [Design]",
+              "RelativeToolTip": "Driving-License-Management\\Applications\\Applications Types\\frmListAppTypes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T19:07:57.489Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmEditApplicationType.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Applications\\Applications Types\\frmEditApplicationType.cs",
+              "RelativeDocumentMoniker": "Driving-License-Management\\Applications\\Applications Types\\frmEditApplicationType.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Applications\\Applications Types\\frmEditApplicationType.cs",
+              "RelativeToolTip": "Driving-License-Management\\Applications\\Applications Types\\frmEditApplicationType.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAzwDYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T19:35:03.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmLestTestTypes.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Tests\\Test Types\\frmLestTestTypes.Designer.cs",
+              "RelativeDocumentMoniker": "Driving-License-Management\\Tests\\Test Types\\frmLestTestTypes.Designer.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Tests\\Test Types\\frmLestTestTypes.Designer.cs",
+              "RelativeToolTip": "Driving-License-Management\\Tests\\Test Types\\frmLestTestTypes.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIAwwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T15:40:04.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "LoginPage.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Login Page\\LoginPage.cs",
               "RelativeDocumentMoniker": "Driving-License-Management\\Login Page\\LoginPage.cs",
@@ -97,19 +254,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "Driving-License-Management.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Driving-License-Management.csproj",
+              "RelativeDocumentMoniker": "Driving-License-Management\\Driving-License-Management.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Driving-License-Management.csproj",
+              "RelativeToolTip": "Driving-License-Management\\Driving-License-Management.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-24T19:05:10.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmEditApplicationType.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Applications\\Applications Types\\frmEditApplicationType.cs",
+              "RelativeDocumentMoniker": "Driving-License-Management\\Applications\\Applications Types\\frmEditApplicationType.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Applications\\Applications Types\\frmEditApplicationType.cs [Design]",
+              "RelativeToolTip": "Driving-License-Management\\Applications\\Applications Types\\frmEditApplicationType.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T19:34:33.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Global.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Global Classes\\Global.cs",
+              "RelativeDocumentMoniker": "Driving-License-Management\\Global Classes\\Global.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Global Classes\\Global.cs",
+              "RelativeToolTip": "Driving-License-Management\\Global Classes\\Global.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:46:26.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "LoginPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Login Page\\LoginPage.cs",
               "RelativeDocumentMoniker": "Driving-License-Management\\Login Page\\LoginPage.cs",
               "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Login Page\\LoginPage.cs [Design]",
               "RelativeToolTip": "Driving-License-Management\\Login Page\\LoginPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T13:05:48.349Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-21T13:05:48.349Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
+              "Title": "UserDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\DataLayer\\UserDataAccess.cs",
+              "RelativeDocumentMoniker": "DataLayer\\UserDataAccess.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\DataLayer\\UserDataAccess.cs",
+              "RelativeToolTip": "DataLayer\\UserDataAccess.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAswJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T15:02:30.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Program.cs",
               "RelativeDocumentMoniker": "Driving-License-Management\\Program.cs",
@@ -117,33 +320,7 @@
               "RelativeToolTip": "Driving-License-Management\\Program.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T12:41:26.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Form1.cs",
-              "RelativeDocumentMoniker": "Driving-License-Management\\Form1.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Form1.cs",
-              "RelativeToolTip": "Driving-License-Management\\Form1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T12:40:44.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Form1.cs",
-              "RelativeDocumentMoniker": "Driving-License-Management\\Form1.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\FullStack\\19\\DVLD\\Driving-License-Management\\Form1.cs [Design]",
-              "RelativeToolTip": "Driving-License-Management\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T12:40:41.239Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-21T12:41:26.531Z"
             }
           ]
         },

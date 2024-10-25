@@ -9,6 +9,10 @@ namespace BuisnessLayer
 {
     public class ApplicationTypes
     {
+
+        public enum enMode { AddNew = 0, Update = 1 };
+        public enMode Mode = enMode.AddNew;
+
         public int ApplicationTypeID { get; set; }
 
         public string ApplicationTypeTitle { get; set; }
@@ -20,6 +24,7 @@ namespace BuisnessLayer
             this.ApplicationTypeID = -1;
             this.ApplicationTypeTitle = "";
             this.ApplicationFees = 0;
+            Mode = enMode.AddNew;
         }
 
         private ApplicationTypes(int ApplicationTypeID ,string ApplicationTypeTitle ,float ApplicationFees)
@@ -27,6 +32,7 @@ namespace BuisnessLayer
             this.ApplicationTypeID = ApplicationTypeID;
             this.ApplicationTypeTitle = ApplicationTypeTitle;
             this.ApplicationFees = ApplicationFees;
+            Mode = enMode.Update;
         }
 
 
@@ -43,10 +49,52 @@ namespace BuisnessLayer
                 return null;
         }
 
+        private bool _AddNewApplicationType()
+        {
+            //call DataAccess Layer 
+
+            this.ApplicationTypeID = ApplicationTypesDataAccess.AddNewApplicationType(this.ApplicationTypeTitle, this.ApplicationFees);
+
+
+            return (this.ApplicationTypeID != -1);
+        }
+
+        private bool _UpdateApplicationType()
+        {
+            //call DataAccess Layer 
+
+            return ApplicationTypesDataAccess.UpdateApplicationType(this.ApplicationTypeID, this.ApplicationTypeTitle, this.ApplicationFees);
+        }
 
 
         public static DataTable _GetAllApplicationTypes(){
             return ApplicationTypesDataAccess.GetAllApplicationTypes();
         }
+
+        public bool Save()
+        {
+            switch (Mode)
+            {
+                case enMode.AddNew:
+                    if (_AddNewApplicationType())
+                    {
+
+                        Mode = enMode.Update;
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+
+                case enMode.Update:
+
+                    return _UpdateApplicationType();
+
+            }
+
+            return false;
+        }
+
     }
 }

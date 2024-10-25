@@ -2,6 +2,12 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Applications\Applications Types\frmEditApplicationType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Applications\Applications Types\frmListAppTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Login Page\LoginPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -15,6 +21,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="People\frmShowPersonInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Tests\Test Types\frmEditLestTestTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Tests\Test Types\frmLestTestTypes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Users\ctrlUserCard.cs">

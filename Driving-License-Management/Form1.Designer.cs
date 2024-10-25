@@ -311,7 +311,7 @@ namespace DVLD
             menuStrip2.Location = new System.Drawing.Point(0, 0);
             menuStrip2.Name = "menuStrip2";
             menuStrip2.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            menuStrip2.Size = new System.Drawing.Size(293, 346);
+            menuStrip2.Size = new System.Drawing.Size(293, 370);
             menuStrip2.TabIndex = 3;
             menuStrip2.Text = "menuStrip2";
             // 
@@ -432,6 +432,7 @@ namespace DVLD
             toolStripMenuItem14.Name = "toolStripMenuItem14";
             toolStripMenuItem14.Size = new System.Drawing.Size(394, 70);
             toolStripMenuItem14.Text = "Manage Application Types";
+            toolStripMenuItem14.Click += toolStripMenuItem14_Click;
             // 
             // toolStripMenuItem15
             // 
@@ -440,6 +441,7 @@ namespace DVLD
             toolStripMenuItem15.Name = "toolStripMenuItem15";
             toolStripMenuItem15.Size = new System.Drawing.Size(394, 70);
             toolStripMenuItem15.Text = "Manage Test Types";
+            toolStripMenuItem15.Click += toolStripMenuItem15_Click;
             // 
             // toolStripMenuItem16
             // 
@@ -495,6 +497,7 @@ namespace DVLD
             toolStripMenuItem21.Name = "toolStripMenuItem21";
             toolStripMenuItem21.Size = new System.Drawing.Size(275, 38);
             toolStripMenuItem21.Text = "Change Password";
+            toolStripMenuItem21.Click += toolStripMenuItem21_Click;
             // 
             // toolStripMenuItem22
             // 
